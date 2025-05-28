@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.API", "QuinelaAppBackend.API\QuinelaAppBackend.API.csproj", "{599764B2-7647-412E-B536-B032A5E3AED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.Application", "QuinelaAppBackend.Application\QuinelaAppBackend.Application.csproj", "{CABB6AA5-21F9-495D-BD09-550E32CE58AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.Domain", "QuinelaAppBackend.Domain\QuinelaAppBackend.Domain.csproj", "{9B2C842A-7937-4607-8752-AC5296FD9225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.Infrastructure", "QuinelaAppBackend.Infrastructure\QuinelaAppBackend.Infrastructure.csproj", "{5271621B-A92E-478A-8E42-A290580EB22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.Shared", "QuinelaAppBackend.Shared\QuinelaAppBackend.Shared.csproj", "{03AAC77C-0A19-45A2-8CE2-F5865319F8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FAFA513E-44C9-438D-8C7F-173FC17531E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DBC68936-9A47-4D22-AC81-3044BC612BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.UnitTests", "QuinelaAppBackend.UnitTests\QuinelaAppBackend.UnitTests.csproj", "{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.IntegrationTests", "QuinelaAppBackend.IntegrationTests\QuinelaAppBackend.IntegrationTests.csproj", "{0721E653-4C66-4AF4-AFD5-344E63A8F5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinelaAppBackend.API.Tests", "QuinelaAppBackend.API.Tests\QuinelaAppBackend.API.Tests.csproj", "{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{599764B2-7647-412E-B536-B032A5E3AED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599764B2-7647-412E-B536-B032A5E3AED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599764B2-7647-412E-B536-B032A5E3AED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599764B2-7647-412E-B536-B032A5E3AED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABB6AA5-21F9-495D-BD09-550E32CE58AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABB6AA5-21F9-495D-BD09-550E32CE58AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABB6AA5-21F9-495D-BD09-550E32CE58AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABB6AA5-21F9-495D-BD09-550E32CE58AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2C842A-7937-4607-8752-AC5296FD9225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2C842A-7937-4607-8752-AC5296FD9225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2C842A-7937-4607-8752-AC5296FD9225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2C842A-7937-4607-8752-AC5296FD9225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5271621B-A92E-478A-8E42-A290580EB22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5271621B-A92E-478A-8E42-A290580EB22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5271621B-A92E-478A-8E42-A290580EB22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5271621B-A92E-478A-8E42-A290580EB22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AAC77C-0A19-45A2-8CE2-F5865319F8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AAC77C-0A19-45A2-8CE2-F5865319F8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AAC77C-0A19-45A2-8CE2-F5865319F8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AAC77C-0A19-45A2-8CE2-F5865319F8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0721E653-4C66-4AF4-AFD5-344E63A8F5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0721E653-4C66-4AF4-AFD5-344E63A8F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0721E653-4C66-4AF4-AFD5-344E63A8F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0721E653-4C66-4AF4-AFD5-344E63A8F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{599764B2-7647-412E-B536-B032A5E3AED3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CABB6AA5-21F9-495D-BD09-550E32CE58AF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9B2C842A-7937-4607-8752-AC5296FD9225} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5271621B-A92E-478A-8E42-A290580EB22B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{03AAC77C-0A19-45A2-8CE2-F5865319F8BB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{73EE4C8D-2DF7-4CD0-A84D-17A271241AC7} = {DBC68936-9A47-4D22-AC81-3044BC612BA9}
+		{0721E653-4C66-4AF4-AFD5-344E63A8F5AC} = {DBC68936-9A47-4D22-AC81-3044BC612BA9}
+		{F67700B8-66F0-44D5-B8C6-1534F1EE0FB5} = {DBC68936-9A47-4D22-AC81-3044BC612BA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5CC94D6-7F68-4EAC-92CF-788ECC593A4C}
+	EndGlobalSection
+EndGlobal
